@@ -1,28 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Página de Cadastro</title>
-
-	</head>
-	<body>
-        <h1>Bem-Vindo</h1>
-        <h2>Realize seu Cadastro</h2> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício mod7</title>
+    <link rel="stylesheet" href="./main.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Bem-vindo</h1>
         <form>
-            <label for="nome">Seu nome</label>
-            <input id="nome" type="text" placeholder="Nome" />
-            <br />
-            <label for="email">Seu e-mail</label>
-            <input id="email" type="email" placeholder="E-mail"/>
-            <br />
-            <label for="senha">Sua senha</label>
-            <input id="senha" type="password" placeholder="Senha">
-            <br /> <br/>
-            <button type="submit">
-                Cadastre-se
-            </button>
+            <label for="valor1">Primeiro valor:</label>
+            <input type="number" id="valor1" required placeholder="Digite o primeiro valor">
+            <br><br>
+            <label for="valor2">Segundo valor:</label>
+            <input type="number" id="valor2" required placeholder="Digite o segundo valor">
+            <br><br>
+            <button onclick="calculaValor()" type="submit">Verificar</button>
         </form>
-	</body>
+    </div>
+    <script src="./main.js"></script>
+</body>
 </html>

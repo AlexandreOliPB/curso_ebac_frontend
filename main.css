@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 8px;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+button {
+    background-color: blueviolet;
+    color: #fff;
+    margin: 16px;
+    
+}
+.container {
+    margin: 46px;
+    
+}
